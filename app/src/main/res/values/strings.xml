@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">gameForAnna</string>
+    <string name="name">введите свое имя</string>
+    <string name="okButton">ok</string>
+</resources>
