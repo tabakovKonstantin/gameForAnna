@@ -129,7 +129,7 @@ public class StartActivity extends Activity implements View.OnClickListener {
                             serialPort.setFlowControl(UsbSerialInterface.FLOW_CONTROL_OFF);
                             serialPort.read(mCallback);
 
-                            
+
                             Log.i("aaa", "open port");
 
                         } else {
@@ -159,6 +159,7 @@ public class StartActivity extends Activity implements View.OnClickListener {
             String data = null;
             try {
                 data = new String(bytes, "UTF-8");
+
 //                data.concat("/n");
                 Log.i("aaa", data);
             } catch (UnsupportedEncodingException e) {
